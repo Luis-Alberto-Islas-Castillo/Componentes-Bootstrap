@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Diseo Adaptable</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Proyecto de inversion personal">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            .columna{
+                background: #2191fd;
+                color: #ffffff;;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="columna col hidden-sm-up">XS - Extra Small</div>
+                <div class="columna col hidden-xs-down hidden-md-up">SM - Small</div>
+                <div class="columna col hidden-lg-up hidden-sm-down">MD - Medium</div>
+                <div class="columna col hidden-md-up hidden-md-down">LG - Large</div>
+                <div class="columna col hidden-lg-down hidden-md-up">XL - Extra Large</div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Bring Bootstrap to life with our optional JavaScript
+                    plugins built on jQuery. Learn about each plugin, our 
+                    data and programmatic API options, and more</p>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
