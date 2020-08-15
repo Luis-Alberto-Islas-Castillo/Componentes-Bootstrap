@@ -1,0 +1,34 @@
+html {
+    font-size: 15px;
+}
+
+body{
+    color: #232323;
+}
+
+.encabezado {
+    background: #0b2239;
+    color: #96ee09;
+    padding: .5rem 0;
+}
+
+.encabezado .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.encabezado .logo img {
+    width: 150px;
+    height: auto;
+}
+
+/* Estilos para iconos */
+.boton-buscar, .boton-menu{
+    border: 0;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 .5rem;
+    background: transparent;
+    color: #ffffff;
+}
