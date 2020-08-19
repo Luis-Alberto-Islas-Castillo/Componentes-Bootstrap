@@ -6,6 +6,15 @@ body{
     color: #232323;
 }
 
+.inicio{
+    background: url("../img/harpal-singh.jpg") no-repeat center top;
+    color:#f3eded;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .encabezado {
     background: #0b2239;
     color: #96ee09;
@@ -92,4 +101,32 @@ ainer {
 #menu-principal ul a:hover,
 #menu-principal ul li.active a{
     color: #3ce783;
+}
+
+.texto-encabezado{
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+
+/*Tamaño de letra del contenido principal*/
+.texto-encabezado .display-4{
+    margin-top: 4rem;
+}
+
+/*Estilos para el boton principal*/
+.btn-primary {
+    color: #ffffff;
+    background-color: #3ce783;
+    border-color: transparent;
+    margin-top: 1rem;
+    transition: all .5s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:hover{
+    color: #ffffff;
+    background-color: #96ee09;
+    border-color: transparent;
 }
