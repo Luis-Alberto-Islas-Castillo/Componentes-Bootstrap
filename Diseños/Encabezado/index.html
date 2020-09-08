@@ -16,7 +16,7 @@
 <body>
     <section class="inicio">
 
-        <header class="encabezado navbar fixed-top" role="banner">
+        <header class="encabezado navbar fixed-top" role="banner" id="encabezado">
             <div class="container">
                 <a href="index.html" class="logo">
                     <img src="img/flaticon_negative.svg" alt="logo del sitio">
@@ -50,24 +50,36 @@
             </div>
         </header>
 
-        <div class="texto-encabezado text-center">
+        <div class="texto-encabezado text-xs-center">
             <div class="container">
-                <h1 class="display-4">Accede a 3,224,500 iconos vectoriales</h1>
+                <h1 class="display-4 wow bounceIn">Accede a 3,224,500 iconos vectoriales</h1>
                 <p>La mayor base de datos de iconos gratuitos disponibles en formato PNG, SVG, EPS, PSD y BASE 64.</p>
                 <a href="contacto.html" class="btn btn-primary btn-lg">Ponte en contacto</a>
             </div>
         </div>
 
-        <div class="fleche-bajar">
-            <a href="agencia">Boton bajar</a>
-        </div>
-
-        <section class="agencia" id="agencia">
-            <h2>Titulo</h2>
-            <p>Cuerpo</p>
-            <!-- <img src="img/flaticon_negative.svg" alt="logotipo"> -->
-        </section>
     </section>
+
+    <section class="agencia p-y-1" id="agencia">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xl-9 wow bounceIn">
+                    <h2 class="h3 text-xs-center text-md-left font-weight-bold">Flaticon</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing software like Aldus PageMaker including
+                        versions of Lorem Ipsum.</p>
+                </div>
+                <div class="col-md-4 col-xl-3 wow bounceIn">
+                    <img class="rounded mx-auto d-block" src="img/loader-logo.svg" alt="logotipo">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
