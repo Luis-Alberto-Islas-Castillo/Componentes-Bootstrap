@@ -130,3 +130,15 @@ ainer {
     background-color: #96ee09;
     border-color: transparent;
 }
+
+/*Seccion agencia*/
+.agencia{
+    background: #0b2239;
+    color: #fff;
+}
+
+.agencia img{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
