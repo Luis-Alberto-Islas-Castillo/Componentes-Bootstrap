@@ -1,3 +1,3 @@
 # Practicas-en-Bootstrap
  
-Trabajando con la biblioteca Bootstrap.
+Ejemplos de Algunos Componentes creados con Bootstrap que pueden ser de utilidad para algun trabajo previo. :)
